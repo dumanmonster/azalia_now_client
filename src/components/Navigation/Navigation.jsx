@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navigation.scss'
-import './global.scss'
+
 const Navigation = () => {
   return (
     <nav>
