@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0e0e0e;
+    color: #ffffff;
+    padding: 1rem;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button, input[type='submit'] {
+    background-color: #26a69a;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  input[type='text'], input[type='number'] {
+    background-color: #212121;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
